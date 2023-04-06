@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Serif-light;
+    src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf);
+    font-family: serif-bold;
+    src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color:rgb(240, 240, 240); 
+}
+    /*HEADER*/
+h1 a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: #0c89ab;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+header nav ul li a{
+    text-decoration:none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px auto;
+}
+
+    /*MAIN*/
+.main {
+    margin: 100px 0;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+.imagen_noticia{
+    border-radius: 20px;
+    position: relative;
+}
+.main section article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+                    "A A B"
+                    "C C D"
+                    "E F G";
+    row-gap: 25px;
+    column-gap: 20px;
+    width: 100%;
+}
+.main section article a{ 
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}  
+.titular {
+    font-size: 24px;
+    font-family: serif-bold;    
+    padding: 5px 0px;
+    color: black;
+}
+.noticia{
+    font-size: 18px;
+    font-family: serif-light;
+    color: black;   
+}
+.nota1{
+    grid-area: A;
+}
+.nota2{
+    grid-area: B;
+}
+.nota3{
+    grid-area: C;
+}
+.nota4{
+    grid-area: D;
+}
+.nota5{
+    grid-area: E;
+}
+.nota6{
+    grid-area: F;
+}
+.nota7{
+    grid-area: G;
+}
+img{
+    width: 100%;
+}
+
+    /*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+.contacto{
+    font-size: 16px;
+}
+.contacto a{
+    text-decoration: none;
+    color: #0c89ab;
+}
+.SocialMedia ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.SocialMedia h4{
+    color: #0c89ab;
+}
