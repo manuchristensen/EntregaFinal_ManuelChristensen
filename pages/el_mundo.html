@@ -16,13 +16,17 @@
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
     <!-- ESTILOS CSS-->
-    <link rel="stylesheet" href="../css/estilos.css">    
+    <link rel="stylesheet" href="../css/estilos.css">   
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />  
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid animate__animated animate__bounceInDown  ">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <h1 class="logo">
+                <h1 class="logo animate__animated animate__bounceInLeft">
                     <a class="navbar-brand" href="../index.html">CODERINFO</a>
                 </h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -121,21 +125,32 @@
 
     <footer class="footer">       
 
-                <!--CONTACTO-->
-            <div class="contacto">
-                <a href="">Contacto.</a>
-            </div>
+        <div>
+            <h3>Contacto</h3>
+            <form class="form-contacto">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required>Envie su comentario..</textarea>
+                
+                <button class="boton" type="submit">Enviar</button>
+            </form>
+        </div>
 
-            <!--SOCIAL MEDIA-->
-            <div class="SocialMedia">
-                <h4>Seguinos en:</h4>
-                <ul>
-                    <li><a href="">TW</a></li> 
-                    <li><a href="">IG</a></li>
-                    <li><a href="">FB</a></li>
-                    <li><a href="">LI</a></li>
-                </ul>
-            </div>
+        <!--SOCIAL MEDIA-->
+        <div class="SocialMedia">
+            <h4>Seguinos en:</h4>
+            <ul>
+                <li><a href="" class="icono"><img src="img/SocialMedia/Instagram_logo_2016.svg" alt="Instagram Logo"></a></li> 
+                <li><a href="" class="icono"><img src="img/SocialMedia/Facebook_f_logo_(2021).svg" alt="Facebook Logo"></a></li>
+                <li><a href="" class="icono"><img src="img/SocialMedia/twitter.png" alt="Twitter"></a></li>
+                <li><a href="" class="icono"><img src="img/SocialMedia/LinkedIn_icon.svg" alt="Linkedin"></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
