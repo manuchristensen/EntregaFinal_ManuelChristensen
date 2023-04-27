@@ -1,0 +1,41 @@
+.logo a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: #0c89ab;
+
+    nav .container-fluid h1 a {
+        color: white;
+    }
+}
+
+nav div div ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav {
+    ul li {
+        display: inline-block;
+        margin-left: 20px;
+        position: relative;
+    }
+
+    .container-fluid .collapse ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px auto;
+    }
+}

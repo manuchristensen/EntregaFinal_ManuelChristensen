@@ -1,0 +1,31 @@
+main {
+	margin-top: 100px;
+	section {
+		article {
+			a {
+				display: flex;
+				flex-wrap: wrap;
+				text-decoration: none;
+			}
+		}
+	}
+}
+.imagen_noticia {
+	border-radius: 20px;
+	position: relative;
+	width: 100%;
+}
+.titular {
+	font-size: 24px;
+	font-family: serif-bold;
+	padding: 5px 0px;
+	color: black;
+}
+.noticia {
+	font-size: 18px;
+	font-family: serif-light;
+	color: black;
+}
+img {
+	width: 100%;
+}

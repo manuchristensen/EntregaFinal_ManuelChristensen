@@ -1,0 +1,151 @@
+@font-face {
+  font-family: Serif-light;
+  src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf);
+  font-family: serif-bold;
+  src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.logo a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  background-color: #0c89ab;
+}
+header nav .container-fluid h1 a {
+  color: white;
+}
+
+nav div div ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+}
+header nav .container-fluid .collapse ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px auto;
+}
+
+main {
+  margin-top: 100px;
+}
+main section article a {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.imagen_noticia {
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.titular {
+  font-size: 24px;
+  font-family: serif-bold;
+  padding: 5px 0px;
+  color: black;
+}
+
+.noticia {
+  font-size: 18px;
+  font-family: serif-light;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.boton {
+  background-color: #0062cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.boton:hover {
+  background-color: #0062cc;
+}
+
+.SocialMedia ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 10px;
+}
+.SocialMedia h4 {
+  color: #0c89ab;
+  text-align: center;
+}
+
+.icono {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+}
+
+.animate__animated .animate__bounceInLeft {
+  animation-delay: 0.8s;
+}
+
+/*# sourceMappingURL=style.css.map */

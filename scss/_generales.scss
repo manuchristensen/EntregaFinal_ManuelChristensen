@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Serif-light;
+    src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf);
+    font-family: serif-bold;
+    src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color:#FFFFFF;
+}
