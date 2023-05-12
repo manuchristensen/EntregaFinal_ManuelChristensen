@@ -2,66 +2,72 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 70px;
-  }
-  
-  .form-contacto {
+}
+.form-contacto {
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
-  }
-  
-  label, input, textarea {
+}
+label, input, textarea {
     display: block;
     margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.4;
-  }
-  
-  input, textarea {
+}
+input, textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid;
     border-radius: 5px;
     font-size: 14px;
-  }
-  
-  .boton {
-    background-color: #0062cc;
+}
+.boton {
+  background-color: #0062cc;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
-  
+
     &:hover {
-      background-color: #0062cc;
+      background-color: $color-footer;
     }
   }
-  
   .SocialMedia {
+    padding-top: 30px;
+    
     ul {
       display: flex;
       justify-content: space-between;
       list-style-type: none;
       padding-top: 10px;
     }
-  
     h4 {
-      color: #0c89ab;
+      color: $color-azul;
       text-align: center;
     }
-  }
-  
-  .icono {
+}  
+.icono {
     display: inline-block;
     text-align: center;
     width: 30px;
     height: 30px;
     margin-right: 18px;
-  }
-  
-  .animate__animated .animate__bounceInLeft {
+}
+
+.animate__animated .animate__bounceInLeft {
     animation-delay: 0.8s;
-  }
+}
+.contacto-boton{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  text-transform: uppercase; 
   
+  a{
+    text-decoration: none;
+    color: $color-azul; 
+  }
+}

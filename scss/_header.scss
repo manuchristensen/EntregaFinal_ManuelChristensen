@@ -13,10 +13,10 @@ header {
     width: 100%;
     top: 0;
     z-index: 2;
-    background-color: #0c89ab;
+    background-color: $color-azul;
 
     nav .container-fluid h1 a {
-        color: white;
+        color: $color-blanco;
     }
 }
 

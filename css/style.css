@@ -85,6 +85,10 @@ img {
   width: 100%;
 }
 
+h3 {
+  text-align: center;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
@@ -125,6 +129,9 @@ input, textarea {
   background-color: #0062cc;
 }
 
+.SocialMedia {
+  padding-top: 30px;
+}
 .SocialMedia ul {
   display: flex;
   justify-content: space-between;
@@ -146,6 +153,18 @@ input, textarea {
 
 .animate__animated .animate__bounceInLeft {
   animation-delay: 0.8s;
+}
+
+.contacto-boton {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.contacto-boton a {
+  text-decoration: none;
+  color: #0c89ab;
 }
 
 /*# sourceMappingURL=style.css.map */
